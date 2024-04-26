@@ -46,12 +46,14 @@ export default function LinksSection() {
                             <nav>
                                 <ul className="flex gap-8 items-center">
                                     <li>
-                                        <Link href={"https://raydium.io/swap/?inputCurrency=sol&outputCurrency=53yANribNp1WzRsciY6upAN2VPY85waZEtADTeJhtQGN&fixed=in"} target="_blank" className="main-button">
+                                        <Link href={"https://raydium.io/swap/?inputCurrency=sol&outputCurrency=53yANribNp1WzRsciY6upAN2VPY85waZEtADTeJhtQGN&fixed=in"}
+                                            target="_blank" className="main-button">
                                             Raydium
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={"https://jup.ag/swap/SOL-53yANribNp1WzRsciY6upAN2VPY85waZEtADTeJhtQGN"} target="_blank" className="main-button">
+                                        <Link href={"https://jup.ag/swap/SOL-53yANribNp1WzRsciY6upAN2VPY85waZEtADTeJhtQGN"}
+                                            target="_blank" className="main-button">
                                             Jupiter
                                         </Link>
                                     </li>
@@ -62,7 +64,7 @@ export default function LinksSection() {
                 </div>
 
                 <div className="flex-1 flex flex-col justify-center items-center gap-3"
-                data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">
+                    data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">
                     <h1 className="text-4xl">
                         Founder Eronu Masuku
                     </h1>
