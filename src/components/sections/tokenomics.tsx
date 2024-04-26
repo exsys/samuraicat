@@ -2,10 +2,9 @@ import styles from "./hero.module.css";
 
 export default function Tokenomics() {
     return (
-        <div className="h-full text-white tracking-wide">
-            <div className="z-10 absolute h-full w-full py-20">
-                <div className="flex flex-col gap-10 justify-center items-center w-[94%] mx-auto
-                text-center lg:text-left">
+        <div className="h-full text-white tracking-wide my-20">
+            <div className="z-10 absolute h-full w-full py-20 sm:py-0">
+                <div className="h-full flex flex-col gap-10 justify-center items-center w-[94%] mx-auto text-center lg:text-left">
                     <p className="text-4xl text-center drop-shadow-md">
                         It’s a samurai, it’s a cat, it’s a samurai cat. Swords up!
                     </p>
@@ -40,7 +39,7 @@ export default function Tokenomics() {
                 </div>
             </div>
 
-            <img src="/images/bg2.jpg" alt="" className={`absolute w-full h-full bg-cover z-0 ${styles["object-cover-bg"]}`} />
+            <img src="/images/bg2.jpg" alt="" className={`absolute w-full h-[120%] sm:h-full bg-cover z-0 ${styles["object-cover-bg"]}`} />
         </div>
     )
 }

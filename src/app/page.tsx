@@ -12,7 +12,7 @@ export default function Home() {
       <div className="-z-10 h-full">
         <HeroSection />
       </div>
-      <div className="z-10 h-full bg-white">
+      <div className="z-10 h-[120%] sm:h-full bg-white">
         <Tokenomics />
       </div>
       <div className="h-fit bg-white">
