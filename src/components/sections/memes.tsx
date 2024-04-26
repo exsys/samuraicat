@@ -9,7 +9,18 @@ export default function Memes() {
                     Tag $YUKI on X
                 </h1>
 
-                <div className="w-[94%] lg:w-3/4 mx-auto">
+                <div className="w-[94%] lg:w-3/4 xl:w-3/5 mx-auto">
+                    <div className="flex flex-col lg:flex-row gap-6 items-center mb-6">
+                        <Link href={"https://twitter.com/YukiSamuraiCat"} target='_blank'
+                            className="flex justify-center items-center cursor-pointer w-full lg:w-1/2">
+                            <img src="/images/elon2.webp" alt="" className="rounded-md drop-shadow-md w-full" />
+                        </Link>
+                        <Link href={"https://twitter.com/YukiSamuraiCat"} target='_blank'
+                            className="flex justify-center items-center cursor-pointer w-full lg:w-1/2">
+                            <img src="/images/snopp.webp" alt="" className="rounded-md drop-shadow-md w-full" />
+                        </Link>
+                    </div>
+
                     <div className="flex justify-center">
                         <img src="/images/harold.jpg" alt="" className="object-cover mb-6 rounded-md drop-shadow-md" />
                     </div>

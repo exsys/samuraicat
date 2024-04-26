@@ -7,7 +7,7 @@ export default function LinksSection() {
     return (
         <div className="h-full">
             <div className="sm:h-fit lg:h-full flex flex-col-reverse lg:flex-row items-center justify-between
-            w-[94%] lg:w-3/4 mx-auto py-10 gap-12 lg:gap-0">
+            w-[94%] lg:w-3/4 mx-auto py-10 gap-12 lg:gap-8 xl:gap-2">
                 <div className="flex-1 flex flex-col items-center justify-center gap-12">
                     <div className="flex flex-col items-center justify-center gap-6">
                         <h1 className="text-6xl font-semibold">
@@ -61,11 +61,12 @@ export default function LinksSection() {
                     </div>
                 </div>
 
-                <div className="flex-1 flex flex-col justify-center items-center gap-3">
+                <div className="flex-1 flex flex-col justify-center items-center gap-3"
+                data-aos="fade-left" data-aos-duration="600" data-aos-delay="100">
                     <h1 className="text-4xl">
                         Founder Eronu Masuku
                     </h1>
-                    <img src="/images/elon.webp" alt="" className="rounded-lg drop-shadow-lg sm:w-3/4 lg:w-full" />
+                    <img src="/images/elon.webp" alt="" className="rounded-lg drop-shadow-lg sm:w-3/4 lg:w-full 2xl:w-[85%]" />
                 </div>
             </div>
         </div>

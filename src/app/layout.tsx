@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import AosProvider from "@/providers/aos-provider";
 
 const inter = Inter({ subsets: ["latin"] });
 const wydonFont = localFont({
@@ -23,7 +24,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body className={`${inter.className} ${wydonFont.className}`}>
-        {children}
+        <AosProvider>
+          {children}
+        </AosProvider>
       </body>
     </html>
   );

@@ -15,7 +15,7 @@ export default function Home() {
       <div className="z-10 h-full bg-white">
         <Tokenomics />
       </div>
-      <div className="h-full bg-white">
+      <div className="h-fit bg-white">
         <LinksSection />
       </div>
       <div className="h-fit bg-white">

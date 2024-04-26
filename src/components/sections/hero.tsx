@@ -3,12 +3,12 @@ export default function HeroSection() {
         <div className="h-full">
             <img src="/images/wave.jpg" alt="" className="fixed w-full h-full bg-cover -z-10" />
 
-            <div className="h-full flex justify-center lg:justify-end items-center w-[92%] lg:w-[60%] mx-auto">
-                <div className="mt-28 lg:-mt-32 flex flex-col gap-8">
-                    <img src="/images/samuraicat.jpg" alt="" className="w-[350px] h-[350px] drop-shadow-lg rounded-sm" />
+            <div className="h-full flex justify-center items-center">
+                <div className="mt-28 flex flex-col items-center gap-8" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                    <img src="/images/samuraicat.jpg" alt="" className="w-[350px] h-[350px] drop-shadow-lg rounded" />
 
                     <div className="text-center">
-                        <h1 className="text-7xl">
+                        <h1 className="text-7xl font-semibold">
                             $YUKI
                         </h1>
                     </div>
